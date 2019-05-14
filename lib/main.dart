@@ -8,7 +8,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        primarySwatch: Colors.blueGrey,
+        brightness: Brightness.dark,
+        primaryColor: Colors.blue[400],
+        accentColor: Colors.cyanAccent[400],
+        //primarySwatch: Colors.blueGrey,
       ),
       title: 'My Flutter Dic v2',
       home: RandomWords(),
